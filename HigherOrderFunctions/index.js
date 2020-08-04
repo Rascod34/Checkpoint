@@ -16,7 +16,8 @@ CREATE A FUNCTION THAT TAKES A CALLBACK AND INVOKES THAT CALLBACK FUNCTION
 */
 
 function higherOrder(callback) {
-  // CODE HERE
+  var greeting = ("Hello world");
+  callback(greeting);
 }
 
 /*
@@ -27,8 +28,10 @@ CREATE A FUNCTION ACCEPTS ONE ARGUMENT, A CALLBACK THAT RETURNS THE RETURN VALUE
 */
 
 function q2(callback) {
-  // CODE HERE
+ var answer = 4 *6;
+ callback(answer)
 }
+
 
 /*
 QUESTION 3
